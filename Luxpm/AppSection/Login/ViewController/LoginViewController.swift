@@ -32,7 +32,8 @@ class LoginViewController: BaseViewController {
     @IBAction func didTapOnLoginButton(_ sender: UIButton) {
        
         if emailTextField.text == "test@luxpmsoft.com" && passwordTextField.text == "test1234!" {
-            print("KO")
+            UIApplication.shared.windows.first?.rootViewController = setUpHomeNavigationSetUp()
+            UIApplication.shared.windows.first?.makeKeyAndVisible()
         } else {
             presentAlertView()
         }
@@ -53,6 +54,13 @@ class LoginViewController: BaseViewController {
         } else {
             loginButton.disableButton()
         }
+    }
+    
+    func setUpHomeNavigationSetUp() -> UINavigationController {
+        let viewController = UIViewController()
+        viewController.view.backgroundColor = .white
+        let navigationController = UINavigationController(rootViewController: viewController)
+        return navigationController
     }
 
 }
