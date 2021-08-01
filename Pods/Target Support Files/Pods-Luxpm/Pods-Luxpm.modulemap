@@ -1,0 +1,6 @@
+framework module Pods_Luxpm {
+  umbrella header "Pods-Luxpm-umbrella.h"
+
+  export *
+  module * { export * }
+}

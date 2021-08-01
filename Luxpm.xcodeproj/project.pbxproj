@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31FE1C2A25DF7132B5F27D80 /* Pods_Luxpm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA135C5E199D89CB3B7C46E /* Pods_Luxpm.framework */; };
+		700FB48E26B5BB8C00BA026E /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 700FB48D26B5BB8C00BA026E /* Roboto-Bold.ttf */; };
+		700FB49126B5BE9B00BA026E /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700FB49026B5BE9B00BA026E /* ForgotPasswordViewController.swift */; };
+		700FB49526B6508F00BA026E /* UIViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700FB49426B6508F00BA026E /* UIViewController+Keyboard.swift */; };
+		700FB49D26B6562600BA026E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700FB49C26B6562600BA026E /* BaseViewController.swift */; };
+		700FB4A026B6591700BA026E /* VerifyCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700FB49F26B6591700BA026E /* VerifyCodeViewController.swift */; };
+		700FB4A326B6592800BA026E /* NewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700FB4A226B6592800BA026E /* NewPasswordViewController.swift */; };
+		700FB4A626B66EB800BA026E /* UIButton+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700FB4A526B66EB800BA026E /* UIButton+CornerRadius.swift */; };
+		700FB4AA26B6780A00BA026E /* ValidEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700FB4A926B6780A00BA026E /* ValidEmail.swift */; };
+		700FB4AD26B6782D00BA026E /* ValidPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700FB4AC26B6782D00BA026E /* ValidPassword.swift */; };
+		70C0936026B5A01A009B59DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C0935F26B5A01A009B59DE /* AppDelegate.swift */; };
+		70C0936226B5A01A009B59DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C0936126B5A01A009B59DE /* SceneDelegate.swift */; };
+		70C0936426B5A01A009B59DE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C0936326B5A01A009B59DE /* LoginViewController.swift */; };
+		70C0936726B5A01A009B59DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C0936526B5A01A009B59DE /* Main.storyboard */; };
+		70C0936926B5A020009B59DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C0936826B5A020009B59DE /* Assets.xcassets */; };
+		70C0936C26B5A020009B59DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C0936A26B5A020009B59DE /* LaunchScreen.storyboard */; };
+		70C0937726B5A609009B59DE /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70C0937626B5A606009B59DE /* Merriweather-Regular.ttf */; };
+		70C0937926B5A60C009B59DE /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70C0937526B5A5D3009B59DE /* Roboto-Regular.ttf */; };
+		70C0937E26B5AE5D009B59DE /* UITextFieldView+PlaceHolderImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C0937D26B5AE5D009B59DE /* UITextFieldView+PlaceHolderImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		700FB48D26B5BB8C00BA026E /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		700FB49026B5BE9B00BA026E /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		700FB49426B6508F00BA026E /* UIViewController+Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Keyboard.swift"; sourceTree = "<group>"; };
+		700FB49C26B6562600BA026E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		700FB49F26B6591700BA026E /* VerifyCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCodeViewController.swift; sourceTree = "<group>"; };
+		700FB4A226B6592800BA026E /* NewPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordViewController.swift; sourceTree = "<group>"; };
+		700FB4A526B66EB800BA026E /* UIButton+CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+CornerRadius.swift"; sourceTree = "<group>"; };
+		700FB4A926B6780A00BA026E /* ValidEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidEmail.swift; sourceTree = "<group>"; };
+		700FB4AC26B6782D00BA026E /* ValidPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPassword.swift; sourceTree = "<group>"; };
+		70C0935C26B5A01A009B59DE /* Luxpm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Luxpm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C0935F26B5A01A009B59DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70C0936126B5A01A009B59DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		70C0936326B5A01A009B59DE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		70C0936626B5A01A009B59DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70C0936826B5A020009B59DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70C0936B26B5A020009B59DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70C0936D26B5A020009B59DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70C0937526B5A5D3009B59DE /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		70C0937626B5A606009B59DE /* Merriweather-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.ttf"; sourceTree = "<group>"; };
+		70C0937D26B5AE5D009B59DE /* UITextFieldView+PlaceHolderImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextFieldView+PlaceHolderImage.swift"; sourceTree = "<group>"; };
+		80975D06E9745D0B87E3295E /* Pods-Luxpm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Luxpm.debug.xcconfig"; path = "Target Support Files/Pods-Luxpm/Pods-Luxpm.debug.xcconfig"; sourceTree = "<group>"; };
+		8FA135C5E199D89CB3B7C46E /* Pods_Luxpm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Luxpm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EEBA172C7D701F08327DABE /* Pods-Luxpm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Luxpm.release.xcconfig"; path = "Target Support Files/Pods-Luxpm/Pods-Luxpm.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70C0935926B5A01A009B59DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FE1C2A25DF7132B5F27D80 /* Pods_Luxpm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70C0935326B5A01A009B59DE = {
+			isa = PBXGroup;
+			children = (
+				70C0935E26B5A01A009B59DE /* Luxpm */,
+				70C0935D26B5A01A009B59DE /* Products */,
+				BE52B74038C8050C68EB4FF1 /* Pods */,
+				7481D91CC354DFDD0E777454 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		70C0935D26B5A01A009B59DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70C0935C26B5A01A009B59DE /* Luxpm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70C0935E26B5A01A009B59DE /* Luxpm */ = {
+			isa = PBXGroup;
+			children = (
+				70C0938226B5B315009B59DE /* AppSection */,
+				70C0937B26B5AA7A009B59DE /* Utility */,
+				70C0937426B5A599009B59DE /* fonts */,
+				70C0935F26B5A01A009B59DE /* AppDelegate.swift */,
+				70C0936126B5A01A009B59DE /* SceneDelegate.swift */,
+				70C0936526B5A01A009B59DE /* Main.storyboard */,
+				70C0936826B5A020009B59DE /* Assets.xcassets */,
+				70C0936A26B5A020009B59DE /* LaunchScreen.storyboard */,
+				70C0936D26B5A020009B59DE /* Info.plist */,
+			);
+			path = Luxpm;
+			sourceTree = "<group>";
+		};
+		70C0937426B5A599009B59DE /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				70C0937626B5A606009B59DE /* Merriweather-Regular.ttf */,
+				70C0937526B5A5D3009B59DE /* Roboto-Regular.ttf */,
+				700FB48D26B5BB8C00BA026E /* Roboto-Bold.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		70C0937B26B5AA7A009B59DE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				70C0937D26B5AE5D009B59DE /* UITextFieldView+PlaceHolderImage.swift */,
+				700FB49426B6508F00BA026E /* UIViewController+Keyboard.swift */,
+				700FB4A526B66EB800BA026E /* UIButton+CornerRadius.swift */,
+				700FB4A926B6780A00BA026E /* ValidEmail.swift */,
+				700FB4AC26B6782D00BA026E /* ValidPassword.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		70C0938226B5B315009B59DE /* AppSection */ = {
+			isa = PBXGroup;
+			children = (
+				70C0938326B5B327009B59DE /* Login */,
+			);
+			path = AppSection;
+			sourceTree = "<group>";
+		};
+		70C0938326B5B327009B59DE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				70C0938526B5B346009B59DE /* ViewModel */,
+				70C0938426B5B333009B59DE /* ViewController */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		70C0938426B5B333009B59DE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				700FB49C26B6562600BA026E /* BaseViewController.swift */,
+				70C0936326B5A01A009B59DE /* LoginViewController.swift */,
+				700FB49026B5BE9B00BA026E /* ForgotPasswordViewController.swift */,
+				700FB49F26B6591700BA026E /* VerifyCodeViewController.swift */,
+				700FB4A226B6592800BA026E /* NewPasswordViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		70C0938526B5B346009B59DE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7481D91CC354DFDD0E777454 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FA135C5E199D89CB3B7C46E /* Pods_Luxpm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE52B74038C8050C68EB4FF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80975D06E9745D0B87E3295E /* Pods-Luxpm.debug.xcconfig */,
+				9EEBA172C7D701F08327DABE /* Pods-Luxpm.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70C0935B26B5A01A009B59DE /* Luxpm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70C0937026B5A020009B59DE /* Build configuration list for PBXNativeTarget "Luxpm" */;
+			buildPhases = (
+				334908B0BD411109F307C24D /* [CP] Check Pods Manifest.lock */,
+				70C0935826B5A01A009B59DE /* Sources */,
+				70C0935926B5A01A009B59DE /* Frameworks */,
+				70C0935A26B5A01A009B59DE /* Resources */,
+				EE6F8C3D6C4EF88A98D8C65A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Luxpm;
+			productName = Luxpm;
+			productReference = 70C0935C26B5A01A009B59DE /* Luxpm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70C0935426B5A01A009B59DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					70C0935B26B5A01A009B59DE = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 70C0935726B5A01A009B59DE /* Build configuration list for PBXProject "Luxpm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70C0935326B5A01A009B59DE;
+			productRefGroup = 70C0935D26B5A01A009B59DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70C0935B26B5A01A009B59DE /* Luxpm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70C0935A26B5A01A009B59DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70C0936C26B5A020009B59DE /* LaunchScreen.storyboard in Resources */,
+				70C0936926B5A020009B59DE /* Assets.xcassets in Resources */,
+				700FB48E26B5BB8C00BA026E /* Roboto-Bold.ttf in Resources */,
+				70C0937926B5A60C009B59DE /* Roboto-Regular.ttf in Resources */,
+				70C0937726B5A609009B59DE /* Merriweather-Regular.ttf in Resources */,
+				70C0936726B5A01A009B59DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		334908B0BD411109F307C24D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Luxpm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE6F8C3D6C4EF88A98D8C65A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Luxpm/Pods-Luxpm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Luxpm/Pods-Luxpm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Luxpm/Pods-Luxpm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70C0935826B5A01A009B59DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700FB4A026B6591700BA026E /* VerifyCodeViewController.swift in Sources */,
+				70C0937E26B5AE5D009B59DE /* UITextFieldView+PlaceHolderImage.swift in Sources */,
+				700FB49526B6508F00BA026E /* UIViewController+Keyboard.swift in Sources */,
+				700FB49126B5BE9B00BA026E /* ForgotPasswordViewController.swift in Sources */,
+				70C0936426B5A01A009B59DE /* LoginViewController.swift in Sources */,
+				700FB4AD26B6782D00BA026E /* ValidPassword.swift in Sources */,
+				70C0936026B5A01A009B59DE /* AppDelegate.swift in Sources */,
+				700FB4A626B66EB800BA026E /* UIButton+CornerRadius.swift in Sources */,
+				700FB49D26B6562600BA026E /* BaseViewController.swift in Sources */,
+				70C0936226B5A01A009B59DE /* SceneDelegate.swift in Sources */,
+				700FB4AA26B6780A00BA026E /* ValidEmail.swift in Sources */,
+				700FB4A326B6592800BA026E /* NewPasswordViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		70C0936526B5A01A009B59DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70C0936626B5A01A009B59DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70C0936A26B5A020009B59DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70C0936B26B5A020009B59DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70C0936E26B5A020009B59DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70C0936F26B5A020009B59DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70C0937126B5A020009B59DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80975D06E9745D0B87E3295E /* Pods-Luxpm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Luxpm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anuj.Luxpm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70C0937226B5A020009B59DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EEBA172C7D701F08327DABE /* Pods-Luxpm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Luxpm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anuj.Luxpm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70C0935726B5A01A009B59DE /* Build configuration list for PBXProject "Luxpm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70C0936E26B5A020009B59DE /* Debug */,
+				70C0936F26B5A020009B59DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70C0937026B5A020009B59DE /* Build configuration list for PBXNativeTarget "Luxpm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70C0937126B5A020009B59DE /* Debug */,
+				70C0937226B5A020009B59DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70C0935426B5A01A009B59DE /* Project object */;
+}
